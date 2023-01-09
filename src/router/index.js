@@ -55,10 +55,7 @@ router.beforeEach((to, from) => {
 
       return "/m2"
     }
-
-
   }
-
 })
 
 export default router

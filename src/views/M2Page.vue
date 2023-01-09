@@ -1,4 +1,7 @@
 <template>
+
+  <MenuComponent></MenuComponent>
+
   <h1>M2 Page</h1>
 
   <div>
@@ -10,6 +13,8 @@
 </template>
 
 <script setup>
+
+import MenuComponent from "@/components/menu/MenuComponent.vue";
 
 import useLoginStore from "@/store/useLoginStore";
 
